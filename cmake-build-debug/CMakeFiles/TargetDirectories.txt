@@ -1,0 +1,3 @@
+/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug/CMakeFiles/Compiti_c_.dir
+/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
