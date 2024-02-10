@@ -4,4 +4,5 @@ project(Compiti_c_)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Compiti_c_
-        fork.cpp)
+        forkEasy/fork.cpp
+        forkEasy/Function.cpp)
