@@ -1,8 +1,6 @@
 # ninja log v5
-4	559	1707523590993116201	CMakeFiles/Compiti_c_.dir/forkEasy/fork.cpp.o	d311d23986a4f439
-0	52	1707523659119547160	build.ninja	81b114f5cbfff34f
-7	3766	1707523203856292896	CMakeFiles/Compiti_c_.dir/fork.cpp.o	8d8b717e4e2127cf
-3766	6001	1707523206092518417	Compiti_c_	c906a61de929e7de
-7	454	1707523465698951518	CMakeFiles/Compiti_c_.dir/forkFunction.cpp.o	c069c6d85a219077
-0	47	1707523659119547160	build.ninja	81b114f5cbfff34f
-6	266	1707523659390643461	CMakeFiles/Compiti_c_.dir/Function.cpp.o	34bd3ccf8f3768ea
+414	503	1708871429068208089	Compiti	fb5376ee7fc955ca
+0	348	1708871364958196480	CMakeFiles/Compiti.dir/main.cpp.o	dcc5ab15b05f3265
+0	414	1708871428978304499	CMakeFiles/Compiti.dir/fork/main.cpp.o	32e90704069882f3
+0	60	1708871469035949344	build.ninja	6601ecd5b6ab95e5
+2	519	1708871575579012078	CMakeFiles/Compiti.dir/Funtion_/main.cpp.o	a4a7e92174b62ae6

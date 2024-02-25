@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug"
+			"value" : "/Users/mattiarotelli/CLionProjects/Compiti/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -251,7 +251,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/mattiarotelli/CLionProjects/Compiti/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mattiarotelli/CLionProjects/Compiti_c-"
+			"value" : "/Users/mattiarotelli/CLionProjects/Compiti"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -583,7 +583,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/nm"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -735,7 +735,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_OSX_ARCHITECTURES",
@@ -771,7 +771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Compiti_c_"
+			"value" : "Compiti"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -835,7 +835,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1071,7 +1071,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/tapi"
+			"value" : "/Library/Developer/CommandLineTools/usr/bin/tapi"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1118,7 +1118,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Compiti_c__BINARY_DIR",
+			"name" : "Compiti_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1127,10 +1127,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mattiarotelli/CLionProjects/Compiti_c-/cmake-build-debug"
+			"value" : "/Users/mattiarotelli/CLionProjects/Compiti/cmake-build-debug"
 		},
 		{
-			"name" : "Compiti_c__IS_TOP_LEVEL",
+			"name" : "Compiti_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1142,7 +1142,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Compiti_c__SOURCE_DIR",
+			"name" : "Compiti_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mattiarotelli/CLionProjects/Compiti_c-"
+			"value" : "/Users/mattiarotelli/CLionProjects/Compiti"
 		}
 	],
 	"kind" : "cache",
