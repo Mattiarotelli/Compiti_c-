@@ -8,8 +8,10 @@ void showPid(int x, pid_t y, pid_t z){
 }
 
 int main(){
-    int nProc = 5;
+    int nProc;
     pid_t parentPid = getpid();    //pid del processo padre
+
+    cin>>nProc; 
 
     for(int i = 1; i <= nProc; i++){      //Creazione dei processi
         pid_t sonPid = fork();
