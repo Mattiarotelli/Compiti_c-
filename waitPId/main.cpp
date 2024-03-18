@@ -1,58 +1,44 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 #include <unistd.h>
 #include <sys/wait.h>
 
 using namespace std;
 
 int main() {
-    //creazione del processo figlio
-    pid_t pidFiglio = fork();
-
-    //gestione in caso di errore
-    if(pidFiglio == -1){
-        cout<<"Errore nella creazione della fork"<<endl;
-        return 1;
-    }else if(pidFiglio == 0){
-        //inizio del codice per il processo figlio
-
-        //apertura del file scrittura
-        ofstream fileScrittura("file.txt");
-        if(!fileScrittura.is_open()){
-            cout<<"il file non è stato aperto correttamente"<<endl;
-            return 1;
-        }
-
-        //scrittura nel processo figlio
-        fileScrittura << "Buon lavoro, dal processo figlio"<< endl;
-
-        //chiusura file.txt
-        fileScrittura.close();
-
-        //uscita dal process figlio
-        exit(0);
-    } else {
-        //codice processo padre
-
-        //attesa terminazione processo
-        int status;
-        waitpid(pidFiglio, &status, 0);
-
-        //apertura file lettura
-        ifstream fileLettura("output.txt");
-        if (!fileLettura.is_open()) {
-            cerr << "Errore nell'apertura del file." << endl;
-            return 1;
-        }
-
-        //lettura del contenuto di file.txt
-        string line;
-        while (getline(fileLettura, line)){
-            cout << line << endl;
-        }
-
-        //chiusura file.txt
-        fileLettura.close();
+    pid_t pid;
+    int status;
+    string frase;
+    pid = fork();
+    if (pid == -1) {
+        perror("Errore nella creazione del processo figlio");
+        exit(1);
     }
+    if (pid == 0) {
+        ofstream fileScrittura("file.txt");
+        if (!fileScrittura.is_open()) {
+            perror("Errore nell'apertura del file");
+            exit(1);
+        }
+
+        cout << "Inserisci la frase"<<endl;
+        getline(cin, frase);
+        fileScrittura << frase << endl;
+        fileScrittura.close();
+        exit(0);
+    }
+    else {
+        waitpid(pid, &status, 0);
+        ifstream fileLettura("file.txt");
+        if (!fileLettura.is_open()) {
+            perror("Errore nell'apertura del file");
+            exit(1);
+        }
+        getline(fileLettura, frase);
+        fileLettura.close();
+        cout << "La frase scritta nel file è: " << frase << endl;
+    }
+
     return 0;
 }
